@@ -1,18 +1,24 @@
 import PropTypes from 'prop-types';
 import './home.css';
+import { useDispatch } from 'react-redux';
+import Header from './Header';
+import Filtered from './Filtered';
 
 function Home(props) {
   const { coins } = props;
-  coins.forEach((coin) => console.log(coin));
+  let sum = 0;
+  coins.forEach((coin) => { sum += coin.quotes.USD.market_cap; });
+  const dispatch = useDispatch();
+  dispatch({
+    type: 'GET_DATA',
+    payload: { coins, globalmktcap: sum },
+  });
+
   return (
-    <div className="Home">
-      { coins.map((coin) => (
-        <span key={coin.id}>
-          {coin.id}
-          <br />
-        </span>
-      )) }
-    </div>
+    <>
+      <Header />
+      <Filtered />
+    </>
   );
 }
 

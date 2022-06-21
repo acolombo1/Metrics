@@ -1,0 +1,36 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(193, 193, 193);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(193, 193, 193);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(193, 193, 193);
+}
+
+.FilterForm {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+#filter {
+  margin-left: 20px;
+  background-color: rgb(226, 43, 165);
+  color: white;
+}
+
+.FilterButton {
+  margin-right: 20px;
+  background-color: rgb(153, 31, 112);
+  color: white;
+}
+
+.FilterForm {
+  background-color: rgb(226, 43, 165);
+  font-family: Lato, sans-serif;
+  color: white;
+}
