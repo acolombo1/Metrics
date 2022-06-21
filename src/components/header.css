@@ -15,6 +15,9 @@
   display: flex;
   justify-content: center;
   column-gap: 30px;
+  background-color: rgb(226, 43, 165);
+  font-family: Lato, sans-serif;
+  color: white;
 }
 
 #filter {
@@ -26,11 +29,5 @@
 .FilterButton {
   margin-right: 20px;
   background-color: rgb(153, 31, 112);
-  color: white;
-}
-
-.FilterForm {
-  background-color: rgb(226, 43, 165);
-  font-family: Lato, sans-serif;
   color: white;
 }

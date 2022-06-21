@@ -1,0 +1,12 @@
+.Heading {
+  height: 1.5rem;
+  background-color: rgb(226, 43, 165);
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}

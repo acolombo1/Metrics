@@ -66,6 +66,8 @@
   width: 50%;
   padding: 15px;
   box-sizing: border-box;
+  color: white;
+  text-decoration: none;
 }
 
 .square:nth-child(4n+2) {

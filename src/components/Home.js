@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import './home.css';
 import { useDispatch } from 'react-redux';
 import Header from './Header';
 import Filtered from './Filtered';

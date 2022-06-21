@@ -7,10 +7,15 @@ function Header() {
   const onFilterChange = (event) => {
     updateFilter({ filter: event.target.value });
   };
+  const FilterKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      event.target.parent.button.onClick();
+    }
+  };
   const dispatch = useDispatch();
   return (
     <form className="FilterForm">
-      <input value={filter.filter} type="text" id="filter" placeholder="1-10" name="filter" onChange={onFilterChange} />
+      <input value={filter.filter} type="text" id="filter" placeholder="1-10" name="filter" onKeyPress={FilterKeyPress} onChange={onFilterChange} />
       <button
         className="FilterButton"
         type="button"

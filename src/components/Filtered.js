@@ -1,5 +1,6 @@
 import { useSelector, shallowEqual } from 'react-redux';
 import './filtered.css';
+import { NavLink } from 'react-router-dom';
 
 function Filtered() {
   const liminf = useSelector((state) => state.filter.liminf, shallowEqual);
@@ -29,18 +30,22 @@ function Filtered() {
       </div>
       <div className="Remainingrows">
         {coins.map((coin) => (
-          <div className="square" key={coin.id}>
-            <img src={`/img/${coin.symbol}.png`} alt={coin.symbol} width={50} height={50} />
-            <br />
-            <div className="toright">
-              {coin.symbol}
-              {' '}
-              <span className="smallfont toright">Market cap</span>
+          <NavLink className="square" to={`/${coin.id}`} key={coin.id}>
+            <div>
+              <img src={`/img/${coin.symbol}.png`} alt={coin.symbol} width={50} height={50} />
+              <br />
+              &nbsp;
+              <br />
+              <div className="toright">
+                {coin.symbol}
+                {' '}
+                <span className="smallfont toright">Market cap</span>
+              </div>
+              <div className="toright">
+                {`${Math.round(coin.quotes.USD.market_cap / 10000000) / 100} Bln`}
+              </div>
             </div>
-            <div className="toright">
-              {`${Math.round(coin.quotes.USD.market_cap / 10000000) / 100} Bln`}
-            </div>
-          </div>
+          </NavLink>
         ))}
       </div>
       <div className="Footer">
