@@ -2,7 +2,7 @@
 
 # Crypto Metrics
 
-> This is the capston React Project. It demonstrates the use of React, Redux, API calls to build a mobile app that shows crypto volumes, market capitalization and more, from a handful of cryptocurrencies.
+> This is the capstone React Project. It demonstrates the use of React, Redux, API calls to build a mobile app that shows crypto coins market capitalizations, volumes, and more, from a handful of cryptocurrencies.
 
 
 ## Built With
