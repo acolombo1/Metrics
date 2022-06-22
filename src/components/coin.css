@@ -10,3 +10,25 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+.Nextrows {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.Nextrows:nth-child(odd) {
+  background-color: rgb(204, 37, 161);
+}
+
+.Nextrows:nth-child(even) {
+  background-color: rgb(235, 46, 172);
+}

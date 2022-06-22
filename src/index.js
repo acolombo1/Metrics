@@ -19,7 +19,7 @@ const initall = async () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home coins={coins} />} />
-          { coins.map((coin) => <Route key={coin.id} path={`/${coin.id}`} element={<Coin coin={coin.symbol} />} />) }
+          { coins.map((coin) => <Route key={coin.id} path={`/${coin.id}`} element={<Coin />} />) }
         </Routes>
       </BrowserRouter>
     </Provider>,
