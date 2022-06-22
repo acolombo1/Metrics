@@ -1,6 +1,6 @@
 import DataReducer from './datareducer';
 import FilterReducer from './filterreducer';
-import samplepayload from '../__mocks__/mock.js'
+import samplepayload from '../__mocks__/mock';
 
 test('DataReducer gets data', () => {
   const result = DataReducer([], {

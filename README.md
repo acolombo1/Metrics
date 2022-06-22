@@ -39,7 +39,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - ![](https://img.shields.io/badge/Microverse-blueviolet)
-
+- [https://api.coinpaprika.com/](https://api.coinpaprika.com/)
+- Original design idea by [https://www.behance.net/sakwadesignstudio](Nelson Sakwa on Behance).
 ## 📝 License
 
 This project is [MIT](https://github.com/acolombo1/metrics/blob/develop/MIT.md) licensed.
