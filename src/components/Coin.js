@@ -1,6 +1,6 @@
 import { useSelector, shallowEqual } from 'react-redux';
 import './coin.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 import Store from '../redux/configureStore';
 import { GetDataAPI } from '../redux/datareducer';
 
@@ -12,13 +12,14 @@ function Coin() {
   if (coins.length === 0) {
     Store.dispatch(GetDataAPI(coinsymbol));
   } else {
-    // eslint-disable-next-line prefer-destructuring
-    coindata = coins.filter((coin) => (coin.symbol === coinsymbol))[0];
+    [coindata] = coins.filter((coin) => (coin.symbol === coinsymbol));
   }
   return (
     <div className="Filtered">
       <div className="Heading">
-        Cryptocurrency Data
+        <NavLink className="big" to="/">&lt;</NavLink>
+        <div>Cryptocurrency Data</div>
+        <div>&nbsp;</div>
       </div>
       <div className="Toprow">
         <div className="left"><img src={`/img/${coinsymbol}.png`} alt={coinsymbol} width={80} height={80} /></div>
@@ -52,7 +53,7 @@ function Coin() {
       <div className="Nextrows">
         <div>Volume (24hr)</div>
         <div>
-          {Number((coindata.quotes.USD.volume_24h / 1000000).toPrecision(3))}
+          {Number((coindata.quotes.USD.volume_24h / 1000000).toPrecision(4))}
           {' '}
           Millon USD
         </div>

@@ -5,7 +5,8 @@
   font-family: Lato, sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   padding: 5px;
   width: 100%;
   box-sizing: border-box;
@@ -31,4 +32,13 @@
 
 .Nextrows:nth-child(even) {
   background-color: rgb(235, 46, 172);
+}
+
+.big {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: Lato, sans-serif;
+  margin-top: -8px;
+  color: white;
+  text-decoration: none;
 }

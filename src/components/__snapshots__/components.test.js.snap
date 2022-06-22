@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<form
+  className="FilterForm"
+>
+  <input
+    id="filter"
+    name="filter"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="1-10"
+    type="text"
+    value=""
+  />
+  <button
+    className="FilterButton"
+    id="myBtn"
+    onClick={[Function]}
+    type="button"
+  >
+    Filter
+  </button>
+</form>
+`;
+
+exports[`Home renders correctly for mock data 1`] = `
+Array [
+  <form
+    className="FilterForm"
+  >
+    <input
+      id="filter"
+      name="filter"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="1-10"
+      type="text"
+      value=""
+    />
+    <button
+      className="FilterButton"
+      id="myBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      Filter
+    </button>
+  </form>,
+  <div
+    className="Filtered"
+  >
+    <div
+      className="Toprow"
+    >
+      <div
+        className="left"
+      >
+        <img
+          alt="Top 100"
+          height={80}
+          src="/img/paprika3.png"
+          width={80}
+        />
+      </div>
+      <div
+        className="right"
+      >
+        <div>
+          TOP 100
+           
+          <div
+            className="smallfont"
+          >
+            Market cap
+          </div>
+        </div>
+        <div
+          className="metric"
+        >
+          56862.29
+           
+          Bln
+        </div>
+      </div>
+    </div>
+    <div
+      className="Secondrow"
+    >
+      <div>
+        Market Caps by COIN
+      </div>
+    </div>
+    <div
+      className="Remainingrows"
+    >
+      <a
+        className="square"
+        href="/btc-Bitcoin"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="BTC"
+            height={50}
+            src="/img/BTC.png"
+            width={50}
+          />
+          <br />
+           
+          <br />
+          <div
+            className="toright"
+          >
+            BTC
+             
+            <span
+              className="smallfont toright"
+            >
+              Market cap
+            </span>
+          </div>
+          <div
+            className="toright"
+          >
+            56675.47 Bln
+          </div>
+        </div>
+      </a>
+      <a
+        className="square"
+        href="/eth-Ethereum"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="ETH"
+            height={50}
+            src="/img/ETH.png"
+            width={50}
+          />
+          <br />
+           
+          <br />
+          <div
+            className="toright"
+          >
+            ETH
+             
+            <span
+              className="smallfont toright"
+            >
+              Market cap
+            </span>
+          </div>
+          <div
+            className="toright"
+          >
+            156.9 Bln
+          </div>
+        </div>
+      </a>
+      <a
+        className="square"
+        href="/usdt-Tether"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="USDT"
+            height={50}
+            src="/img/USDT.png"
+            width={50}
+          />
+          <br />
+           
+          <br />
+          <div
+            className="toright"
+          >
+            USDT
+             
+            <span
+              className="smallfont toright"
+            >
+              Market cap
+            </span>
+          </div>
+          <div
+            className="toright"
+          >
+            19.78 Bln
+          </div>
+        </div>
+      </a>
+      <a
+        className="square"
+        href="/usdc-USD-Coin"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="USDC"
+            height={50}
+            src="/img/USDC.png"
+            width={50}
+          />
+          <br />
+           
+          <br />
+          <div
+            className="toright"
+          >
+            USDC
+             
+            <span
+              className="smallfont toright"
+            >
+              Market cap
+            </span>
+          </div>
+          <div
+            className="toright"
+          >
+            4.94 Bln
+          </div>
+        </div>
+      </a>
+      <a
+        className="square"
+        href="/bnb-Binance-Coin"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="BNB"
+            height={50}
+            src="/img/BNB.png"
+            width={50}
+          />
+          <br />
+           
+          <br />
+          <div
+            className="toright"
+          >
+            BNB
+             
+            <span
+              className="smallfont toright"
+            >
+              Market cap
+            </span>
+          </div>
+          <div
+            className="toright"
+          >
+            5.2 Bln
+          </div>
+        </div>
+      </a>
+    </div>
+    <div
+      className="Footer"
+    >
+      <div>
+         
+      </div>
+    </div>
+  </div>,
+]
+`;
