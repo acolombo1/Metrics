@@ -1,0 +1,44 @@
+.Heading {
+  height: 1.5rem;
+  background-color: rgb(226, 43, 165);
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Nextrows {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.Nextrows:nth-child(odd) {
+  background-color: rgb(204, 37, 161);
+}
+
+.Nextrows:nth-child(even) {
+  background-color: rgb(235, 46, 172);
+}
+
+.big {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: Lato, sans-serif;
+  margin-top: -8px;
+  color: white;
+  text-decoration: none;
+}

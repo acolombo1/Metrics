@@ -2,7 +2,7 @@
 
 # Crypto Metrics
 
-> This is the capston React Project. It demonstrates the use of React, Redux, API calls to build a mobile app that shows crypto volumes, market capitalization and more, from a handful of cryptocurrencies.
+> This is the capstone React Project. It demonstrates the use of React, Redux, API calls to build a mobile app that shows crypto coins market capitalizations, volumes, and more, from a handful of cryptocurrencies.
 
 
 ## Built With
@@ -26,6 +26,10 @@ To get a local copy up and running follow these steps:
 
 [https://metrics-acolombo1.herokuapp.com/](https://metrics-acolombo1.herokuapp.com/)
 
+### Demonstration video
+
+https://www.loom.com/share/1a77fe28b9724c11992b2120ad1a7699
+
 ## Author
 
 👤 **Aldo Colombo**
@@ -39,7 +43,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - ![](https://img.shields.io/badge/Microverse-blueviolet)
-
+- [https://api.coinpaprika.com/](https://api.coinpaprika.com/)
+- Original design idea by [https://www.behance.net/sakwadesignstudio](Nelson Sakwa on Behance).
 ## 📝 License
 
 This project is [MIT](https://github.com/acolombo1/metrics/blob/develop/MIT.md) licensed.
