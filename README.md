@@ -26,6 +26,10 @@ To get a local copy up and running follow these steps:
 
 [https://metrics-acolombo1.herokuapp.com/](https://metrics-acolombo1.herokuapp.com/)
 
+### Demonstration video
+
+https://www.loom.com/share/1a77fe28b9724c11992b2120ad1a7699
+
 ## Author
 
 👤 **Aldo Colombo**
